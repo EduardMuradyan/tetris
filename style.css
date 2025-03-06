@@ -1,0 +1,19 @@
+#main {
+    display: grid;
+    grid-template-columns: repeat(10, 30px);
+    grid-template-rows: repeat(20, 30px);
+    gap: 1px;
+    width: max-content;
+    background-color: black;
+    margin: 20px auto;
+}
+
+.cube {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+
+.red {
+    background-color: red;
+}
